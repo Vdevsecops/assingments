@@ -4,7 +4,7 @@ largest=$1
 
 for num in $@ ; do 
     if [ "$num" -gt "$largest" ]; then
-        $largest=$num
+        largest=$num
     fi
 done
 
