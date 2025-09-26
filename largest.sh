@@ -3,7 +3,7 @@
 largest=$1
 
 for num in "@$"; do 
-    if [ $num -gt $largest ]; then
+    if [ $(num) -gt $largest ]; then
         $largest=$num
     fi
 done
