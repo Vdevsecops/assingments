@@ -2,7 +2,7 @@
 
 largest=$1
 
-for num in "@$"; do 
+for num in $@ ; do 
     if [ "$num" -gt "$largest" ]; then
         $largest=$num
     fi
